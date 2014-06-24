@@ -1,13 +1,13 @@
-# Summary
+# Indice
 
 * [Editor](editor/README.md)
-* [Format](book/format.md)
-* [Pushing Content](book/push.md)
-* [Build](book/build.md)
-* [Common Errors](book/errors.md)
-* [Cover](book/cover.md)
-* [Custom Domains](book/domains.md)
-* [Visibility](book/visibility.md)
-* [Exercices and Quizzes](book/exercises.md)
-* [Google Authorship](user/google.md)
+* [Formato](book/format.md)
+* [Añadir contenido](book/push.md)
+* [Desarrollo](book/build.md)
+* [Errores comunes](book/errors.md)
+* [Cubierta](book/cover.md)
+* [Dominios](book/domains.md)
+* [Visibilidad](book/visibility.md)
+* [Ejercicios y Test](book/exercises.md)
+* [Autoría de Google](user/google.md)
 

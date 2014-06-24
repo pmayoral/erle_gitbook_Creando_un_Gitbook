@@ -1,26 +1,26 @@
-# Build
+# Desarrollo
 
-After you pushed content using **git** or the **editor**, GitBook.io will start different builds:
+Después de subir el contenido usando **git** o el **editor**, GitBook.io ofrecerá diferentes posibilidades:
 
-- **website**: it will generate the website
-- **json**: il will extract metadata about the book (summary, introduction, ...)
-- **epub**: it will generate the epub download
-- **pdf**: it will generate the pdf download
+- **Web**: genera la página web
+- **Json**: extrae los metadatos sobre el libro (resumen, introducción, ...)
+- **Epub**: genera el epub
+- **Pdf**: genera el pdf
 
-### List builds
+### Lista de desarrollo
 
-The **Activity** tab on your book let you follow the evolution of your builds.
+La pestaña **Actividad ** en tu libro te permite seguir la evolución de su desarrollo.
 
-![Activity tab](../assets/activity.png)
+![Ficha Actividad](../Assets/activity.png)
 
-### Details for a build
+### Detalles del desarrollo
 
-When clicking the link "logs" for a build, you can access a details page for it. This page will let you see the output of the build process.
+Al hacer clic en el enlace "logs" del desarrollo, se puede acceder a una página de detalles. Esta página le permitirá ver la salida del proceso de construcción.
 
-![Activity tab](../assets/build.png)
+![Ficha Actividad](../Assets/build.png)
 
-### Fixing errors
+### Solución de errores
 
-If your build failed, you can use the logs to debug the issue and publish a fixed content.
+Si la compilación falla, usted puede usar los registros para depurarlo y publicar un contenido fijo.
 
-[Read more about common build errors](./errors.md)
+[Para saber más acerca de los errores de compilación comunes](./Errors.md)

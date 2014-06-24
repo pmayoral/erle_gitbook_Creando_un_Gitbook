@@ -1,20 +1,20 @@
-# Custom Domains
+# Dominios
 
-All books on **Gitbook.io** are accessible via the url **http://{{author}}.gitbooks.io/{book}/**.
+Todos los libros sobre **Gitbook.io** son accesibles a través de la url **http://{{author}}.gitbooks.io/{book}/**.
 
-But you can configure your book to use a custom domain name (a free feature on GitBook.io).
+Pero usted puede configurar su libro para utilizar un nombre de dominio personalizado (una función gratuita en GitBook.io).
 
-The process to add a custom domain to you book is easy.
+El proceso para agregar un dominio personalizado para su libro es fácil.
 
-1. Add your domain name in your book settings.
+1. Añade tu nombre de dominio en la configuración de libros.
 
-In order to use your own domain, you will need to make changes with your domain registrar:
+Para utilizar su propio dominio, tendrá que hacer cambios con el registrador de dominios:
 
-1. Log in to your domain registrar and find the section that allows you to add/edit host records, often found in a settings menu called 'Edit DNS', 'Host Records' or 'Zone File Control'.
+1. Inicie sesión en su registrador de dominios y busque la sección que le permite añadir/editar registros, a menudo se encuentran en un menú de configuración llamado 'Edit DNS', 'Host Records' o 'Zone File Control'.
 
-2. Set the www record to a CNAME and set the URL field to: ```www.gitbook.io```.
+2. Ajuste el registro www a un `CNAME` y establezca el campo URL para: ```www.gitbook.io```.
 
-3. To redirect the naked domain (`yourdomain.com`) to `www.yourdomain.com`, find the option to forward your domain. This can usually be found under 'Forwarding', 'URL Forwarding' or 'URL Redirect'.
+3. Para redirigir el dominio simple (`sudominio.com`) hacia `www.sudominio.com`, encontrarás la opción de redirigirlo. Esto por lo general se puede encontrar en 'Forwarding', 'URL Forwarding' o 'URL Redirect'.
 
 
-It may take a few hours for domain changes to propagate. To check if it's ready or to setup your custom domain with GitBook, enter your domain name (including the www) below:
+Puede pasar algún tiempo hasta que los cambios en su dominio se lleven a cabo. Para comprobar si está listo o para configurar su dominio personalizado con GitBook, ingrese su nombre de dominio incluido el 'www'

@@ -1,27 +1,27 @@
-# Cover
+# cubierta
 
-To make your book more elegant on GitBook.io, you can specify a cover.
+Para hacer que su libro sea más elegante en GitBook.io, puede especificar una cubierta.
 
-A cover is specified by a **cover.jpg** file, a **cover_small.jpg** can also exists as a smaller version of the cover. The cover should be a **JPEG** file.
+Una cubierta se especifica mediante un archivo **cubierta.jpg**, una **cubierta_pequeña.jpg** también puede existir como una versión más pequeña de la cubierta. La cubierta debe ser un archivo **JPEG**.
 
-### Best Sizes
+### Las mejores Tamaños
 
-|  | Big | Small |
-| -- | -- | -- |
-| **File** | `cover.jpg` | `cover_small.jpg` |
-| **Size** | 1800x2360 | 200x262 |
+| | Grande | Pequeño |
+| - | - | - |
+| **Archivo** | `cover.jpg` | `cover_small.jpg` |
+| **Tamaño** | 1800x2360 | 200x262 |
 
 
-### Autocover
+### Auto-cubierta
 
-A GitBook plugin (`autocover`) can also be used to generate a cover file for you, or just generate the `cover_small.jpg` from your big cover.
+Un plugin GitBook `(Autocover)` también se puede utilizar para generar un archivo de la cubierta, o simplemente generará la `cubierta_pequeña.jpg` de su gran cubierta.
 
-[Read more about autocover](https://github.com/GitbookIO/plugin-autocover).
+[Leer más sobre Auto-cubiertas](https://github.com/GitbookIO/plugin-autocover).
 
-### Guidelines
+### Directrices
 
-A good cover respect the following guidelines:
+Una buena cubierta ha de respetar las siguientes pautas:
 
-* No border
-* Clear visible book title
-* The important text should be visible in the small version
+* Evitar bordes
+* Título del libro limpio y visible
+* El texto importante debe ser visible en la versión pequeña
