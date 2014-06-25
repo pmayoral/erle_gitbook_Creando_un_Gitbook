@@ -1,40 +1,29 @@
-# Pushing Content
-
-When your book is created on **gitbook.io**, you need to push some content to it.
-
-### Using the Editor
-
-If you don't have the editor yet, [install it for free](../editor/README.md).
-
-After connecting your GitBook.io Account to the editor.
-You can use the menu `Book > Publish` to update your book content.
-
-
 # Añadir contenido
 
 Cuando se crea un libro en gitbook.io, es necesario añadir algo de contenido a la misma.
-Uso del editor
 
-Si usted no tiene el editor, sin embargo, instalar de forma gratuita.
+### Uso del editor
 
-Después de conectar tu cuenta de GitBook.io al editor. Puede utilizar el menú de la lista> Publicar para actualizar el contenido de su libro.
+Si no tiene el editor, lo puede instalar de [forma gratuita](../editor/README.md).
+
+Después de conectar tu cuenta de GitBook.io al editor, puede utilizar el menú `Book > Publish` para actualizar el contenido de su libro.
 
 
 ![Publish book](../assets/publish.png)
 
 
-### Using git
+### Usando git
 
-You can use Git to push update of your book.
+Con Git puede actualizar su libro.
 
 ```
 $ git push https://push.gitbook.io/{{UserName}}/{{Book}}.git
 ```
 
-It will prompt for your username (username or email) and your password (password or api token).
+Se le pedirá su nombre de usuario (nombre de usuario o correo electrónico) y la contraseña.
 
-### What next?
+### Y ahora qué?
 
-Once you pushed content to GitBook.io, you need to check the state of your build.
+Después de subir su contenido a GitBook.io, le recomendamos que compruebe cómo ha quedado.
 
-[Read more](./build.md)
+[Leer mas](./build.md)

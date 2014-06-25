@@ -1,3 +1,3 @@
-# Managing your Book
+# Gestión de su libro
 
-This chapter will teach you how to manage your book on **gitbook.io**.
+Este capítulo le enseñará cómo administrar su libro sobre **gitbook.io**.
