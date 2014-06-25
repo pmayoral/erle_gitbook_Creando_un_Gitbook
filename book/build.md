@@ -1,26 +1,26 @@
 # Desarrollo
 
-Después de subir el contenido usando **git** o el **editor**, GitBook.io ofrecerá diferentes posibilidades:
+Despuï¿½s de subir el contenido usando **git** o el **editor**, GitBook.io ofrecerï¿½ diferentes posibilidades:
 
-- **Web**: genera la página web
-- **Json**: extrae los metadatos sobre el libro (resumen, introducción, ...)
+- **Web**: genera la pï¿½gina web
+- **Json**: extrae los metadatos sobre el libro (resumen, introducciï¿½n, ...)
 - **Epub**: genera el epub
 - **Pdf**: genera el pdf
 
 ### Lista de desarrollo
 
-La pestaña **Actividad ** en tu libro te permite seguir la evolución de su desarrollo.
+La pestaï¿½a **Actividad ** en tu libro te permite seguir la evoluciï¿½n de su desarrollo.
 
-![Ficha Actividad](../Assets/activity.png)
+![Ficha Actividad](../assets/activity.png)
 
 ### Detalles del desarrollo
 
-Al hacer clic en el enlace "logs" del desarrollo, se puede acceder a una página de detalles. Esta página le permitirá ver la salida del proceso de construcción.
+Al hacer clic en el enlace "logs" del desarrollo, se puede acceder a una pï¿½gina de detalles. Esta pï¿½gina le permitirï¿½ ver la salida del proceso de construcciï¿½n.
 
-![Ficha Actividad](../Assets/build.png)
+![Ficha Actividad](../assets/build.png)
 
-### Solución de errores
+### Soluciï¿½n de errores
 
-Si la compilación falla, usted puede usar los registros para depurarlo y publicar un contenido fijo.
+Si la compilaciï¿½n falla, usted puede usar los registros para depurarlo y publicar un contenido fijo.
 
-[Para saber más acerca de los errores de compilación comunes](./Errors.md)
+[Para saber mï¿½s acerca de los errores de compilaciï¿½n comunes](./Errors.md)
