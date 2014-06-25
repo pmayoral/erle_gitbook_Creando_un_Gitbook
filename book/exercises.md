@@ -1,17 +1,18 @@
-# Exercices and Quiz
+# Ejercicios y Test
 
-#### Exercises
+#### Ejercicios
 
-A book can contain interactive exercises (currently only in Javascript). An exercise is a code challenge provided to the reader, which is given a code editor to write a solution which is checked against the book author's validation code.
+Un libro puede contener ejercicios interactivos (actualmente sólo en Javascript). Un ejercicio es un código proporcionado para el lector, que se da un editor de código para escribir una solución que se comprueba con el código de validación del libro del autor.
 
-An exercise is defined by 4 simple parts:
+Un ejercicio se define en 4 partes:
 
-* Exercise **Message**/Goals (in markdown/text)
-* **Initial** code to show to the user, providing a starting point
-* **Solution** code, being a correct solution to the exercise
-* **Validation** code that tests the correctness of the user's input
+* Ejercicio **Mensaje**/Objetivos (en markdown/texto)
+* **Código inicial** para mostrar al usuario, proporcionando un punto de partida
+* **Solución** del código, una solución correcta para el ejercicio
+* **Validación** del código que pone a prueba la exactitud de la entrada del usuario
 
-Exercises need to start and finish with a separation bar (```---``` or ```***```). It should contain 3 code elements (**base**, **solution** and **validation**). It can contain a 4th element that provides **context** code (functions, imports of libraries etc ... that shouldn't be displayed to the user).
+Los ejercicios tienen que empezar y terminar con una barra de separación (``` ---``` o ```***```). Debe contener 3 elementos de código (**base**, **solución** y **validación**). Puede contener un cuarto elemento que proporcione el código de **contexto** (funciones, importaciones de librerias, etc... que no deben ser mostrados al usuario).
+
 
     ---
 
@@ -39,11 +40,12 @@ Exercises need to start and finish with a separation bar (```---``` or ```***```
 
     ---
 
-#### Quizzes
+#### Cuestionarios
 
-A book can also contain interactive quizzes.
+Un libro también puede contener cuestionarios interactivos.
 
-A Quiz is defined in the same way as an exercise.
+El cuestionario se define de la misma manera que un ejercicio.
+
 
     ---
 

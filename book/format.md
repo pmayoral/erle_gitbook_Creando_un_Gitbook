@@ -1,18 +1,18 @@
-# Format
+# Formato
 
-GitBook uses a convention on top of markdown files.
+GitBook utiliza la convención de archivos **markdown**.
 
-A book is a Git repository containing at least 2 files: README.md and SUMMARY.md.
+Un libro es un repositoio Git que contiene por lo menos 2 archivos: README.md and SUMMARY.md.
 
 #### README.md
 
-Typically, this should be the introduction for your book. It will be automatically added to the final summary.
+Normalmente, esto debería ser la introducción de su libro. Que se añadirá automáticamente a la síntesis final.
 
 #### SUMMARY.md
 
-The SUMMARY.md defines your book's structure. It should contain a list of chapters, linking to their respective pages.
+El SUMMARY.md define la estructura de su libro. Debe contener una lista de capítulos, con enlaces a sus respectivas páginas.
 
-Example:
+Ejemplo:
 
 ```
 # Summary
@@ -26,12 +26,11 @@ This is the summary of my book.
     * [example 1](section2/example1.md)
 ```
 
-Files that are not included in SUMMARY.md will not be processed by gitbook.
+Los archivos que no están incluidos en SUMMARY.md no serán procesador por gitbook.
 
+#### Multi-Lenguaje
 
-#### Multi-Languages
-
-GitBook supports building books written in multiple languages. Each language should be a sub-directory following the normal GitBook format, and a file named `LANGS.md` should be present at the root of the repository with the following format:
+GitBook apoya la construcción de libros escritos en varios idiomas. Cada idioma debe ser un subdirectorio con el formato normal de GitBook, y un archivo llamado `LANGS.md` debe estar presente en la raíz del repositorio con el siguiente formato:
 
 ```
 * [English](en/)
@@ -39,8 +38,8 @@ GitBook supports building books written in multiple languages. Each language sho
 * [EspaÃ±ol](es/)
 ```
 
-You can see a complete example with the [Learn Git](https://github.com/GitbookIO/git) book.
+Tiene un ejemplo completo en el libro: [Learn Git](https://github.com/GitbookIO/git).
 
-#### Ignoring files & folders
+#### Ignorando archivos y carpetas
 
-GitBook will read the `.gitignore`, `.bookignore` and `.ignore` files to get a list of files and folders to skip. (The format inside those files, follows the same convention as `.gitignore`)
+GitBook leerá los archivos `.gitignore`, `.bookignore` y `.ignore` para obtener la lista de archivos y carpetas que debe saltar (el formato dentro de esos archivos, sigue la misma convención que `.gitignore`)

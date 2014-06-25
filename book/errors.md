@@ -1,6 +1,6 @@
-# Common Errors
+# Errores Comunes
 
-Here is a list of common buidl errors and there associated fixed.
+A continuación presentamos una lista de errores comunes.
 
 ---------
 
@@ -8,10 +8,11 @@ Here is a list of common buidl errors and there associated fixed.
 Error loading plugins: plugin1, ...
 ```
 
-This error is happening because Gitbook can't resolve a plugin (or the plugin is invalid).
-External plugins need to be specified in the `dependencies` field of a node.js `package.json` file. [Learn more about the package.json format](https://www.npmjs.org/doc/json.html).
+Este error ocurre porque Gitbook no puede resolver un plugin (o el plugin no es válido).
+Los plugins externos deben especificarse en el campo `dependencies` de un archivo node.js `package.json`. [Más información sobre el formato package.json](https://www.npmjs.org/doc/json.html).
 
-For example, if your book depend on the **Autocover** plugin, you need a `package.json` file with the following content:
+Por ejemplo, si su libro depende del plugin **Auto-cubierta**, necesita un archivo `package.json` con el siguiente contenido:
+
 
 ```json
 {
